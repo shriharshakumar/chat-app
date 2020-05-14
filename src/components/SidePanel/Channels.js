@@ -19,7 +19,7 @@ class Channels extends React.Component {
 
     render() {
 
-        const {channels} = this.state
+        const {channels, modal} = this.state
 
         return (
             <React.Fragment>
@@ -66,7 +66,7 @@ class Channels extends React.Component {
                     </Modal.Actions>
                 </Modal>
             </React.Fragment>
-        )
+        );
     }
  }
 
